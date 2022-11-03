@@ -10,13 +10,14 @@ header("Content-Type: application/json;");
     $x = $data['x'];
     $y = $data['y'];
 
-    $bolu = {
+    $bolu = [
   "slackUsername":"ajileye",
   "result": $operation,
        "x"; $x,
         "y"; $y
-       }
+       ];
 
 
  echo json_encode($bolu);
 ?>
+
