@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json;");
 
     
-    $jbolu = file_get_contents('php://input');
+    $bolu = file_get_contents('php://input');
     $data = json_decode($bolu, true);
 
     $operation = $data['operation_type'];
