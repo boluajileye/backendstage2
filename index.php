@@ -4,14 +4,19 @@ header("Content-Type: application/json;");
 
     
     $json = file_get_contents('php://input');
-    $data = json_decode($json);
+    $data = json_decode($json, true);
 
     $operation = $data['operation_type'];
     $x = $data['x'];
-    $y = $data[''];
+    $y = $data['y'];
+
+    $bolu = {
+  "slackUsername":"ajileye",
+  "result": $operation,
+       "x"; $x,
+        "y"; $y
+       }
 
 
- echo json_encode($operation);
-echo json_encode($x);
-echo json_encode($y);
+ echo json_encode($bolu);
 ?>
