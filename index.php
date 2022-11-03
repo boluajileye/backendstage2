@@ -25,7 +25,7 @@ header("Content-Type: application/json;");
        $result = $x / $y;
         break;
     default:
-        $result = "Invalid Operation Used";
+        $result = "Invalid Operation";
 }
 
 
