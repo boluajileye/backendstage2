@@ -31,8 +31,8 @@ header("Content-Type: application/json;");
 
     $ajileyebolu = [
   "slackUsername"=>"ajileyebolu",
-  "operation_type"=> $operation,
-   "result"=> $result
+   "result"=> $result,
+  "operation_type"=> $operation
        ];
 
 
