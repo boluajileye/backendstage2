@@ -7,6 +7,6 @@ header("Content-Type: application/json;");
 // Converts it into a PHP object 
 $data = json_decode($json, true);
 
- echo $data;
+ echo json_encode($data);
 
 ?>
