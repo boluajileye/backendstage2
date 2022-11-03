@@ -11,17 +11,17 @@ header("Content-Type: application/json;");
     $y = $data['y'];
 
 
-    switch ($result) {
-    case '$operation == "addition"':
+    switch ($operation) {
+    case "addition":
        $result = $x + $y;
         break;
-    case '$operation == "subtraction"':
+    case "subtraction":
        $result = $x - $y;
         break;
-    case '$operation == "multiplication"':
+    case "multiplication":
        $result = $x * $y;
         break;
-    case '$operation == "division"':
+    case "division":
        $result = $x / $y;
         break;
     default:
